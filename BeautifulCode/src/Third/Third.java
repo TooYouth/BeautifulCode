@@ -19,6 +19,7 @@ public class Third {
 		String str1 = "abcdefgdsadsadsa";
 		String str2 = "abdecabfdsfasddadsadsadas";
 		//System.out.println(getDistance(str1, 0, str1.length()-1, str2,0, str2.length()-1));
+		//ÎŞ³ÜµÄhashÁË
 		HashMap <Integer,Integer> map = new HashMap<>();
 		System.out.println(getDistance(str1, 0, str1.length()-1, str2,0, str2.length()-1,map));
 	}
@@ -117,7 +118,6 @@ public class Third {
 			}else{
 				t3 = map.get((b1+1+(b2+1)*e1));
 			}
-			
 			return (t1>t2?(t2>t3?t3:t2):(t1>t3?t3:t1))+1;
 		}
 	}
