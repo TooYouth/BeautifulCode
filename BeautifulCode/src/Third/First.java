@@ -1,6 +1,6 @@
 package Third;
 
-public class first {
+public class First {
 
 	public static void main(String[] args) {
 		String str1 = "AABCD";
