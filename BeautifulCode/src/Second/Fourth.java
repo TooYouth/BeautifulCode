@@ -45,5 +45,4 @@ public class Fourth {
 		}
 		return res;
 	}
-	
 }
